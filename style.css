@@ -1,0 +1,84 @@
+body {
+  background-image:url('immagini/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 63%;
+  margin: auto;
+  margin-top:20px;
+  background-color:rgba(0,0,0,0.6);
+  border-radius: 10px;
+  font-family:'Poppins', sans-serif;
+  box-sizing: border-box;
+  padding: 100px;
+}
+
+header {
+  text-align: center;
+}
+
+img {
+  width: 25%;
+  height: 25%;
+}
+
+.title {
+  color: rgb(100,218,65);
+  font-size: 30px;
+  font-weight: 500;
+  margin:5px;
+}
+
+.input {
+  background-color: rgb(100,218,65);
+  padding: 10px;
+}
+
+section {
+  color:white;
+}
+
+.monopattino > h2 {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.indicator:before {
+  content:"\21A6";
+}
+
+.address, .charge {
+  font-weight: 200;
+}
+
+/* barra - hr */
+.yellow {
+  border: 14px solid rgb(235,183,100);
+  background-color: rgb(235,183,100);
+  border-radius: 5px;
+  width:31%;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.green {
+  border: 14px solid rgb(93,192,64);
+  background-color: rgb(93,192,64);
+  border-radius: 5px;
+  width:60%;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.red {
+  border: 14px solid rgb(177,74,70);
+  background-color: rgb(177,74,70);
+  border-radius: 5px;
+  width:11%;
+  margin-left: 0;
+  margin-top: 0;
+}
